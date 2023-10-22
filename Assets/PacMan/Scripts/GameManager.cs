@@ -249,6 +249,11 @@ namespace PacMan
             }
         }
 
+        public void MainMenu()
+        {
+            SceneManager.LoadScene(0);
+        }
+
         private void FinalScene()
         {
             SceneManager.LoadScene(2);

@@ -15,4 +15,9 @@ public class MainMenuControls : MonoBehaviour
         bool isActive = SettingsMenu.activeSelf;
         SettingsMenu.SetActive(!isActive);
     }
+
+    public void Exit()
+    {
+        Application.Quit();
+    }
 }
